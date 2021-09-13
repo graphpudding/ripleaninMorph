@@ -12,16 +12,20 @@ $main-color: tomato;
   text-align: center;
 }
 
-#babylon{
+#babylon, #heroPreloader{
   width: 100vw;
   height: 100vh;
   position: fixed;
-  z-index: 100;
+  z-index: 10;
   left: 0px;
+}
+#heroPreloader{
+  z-index: 100;
+  background-color: aquamarines;
 }
 .inputs{
   position: fixed;
-  z-index: 100000;
+  z-index: 15;
   display: flex;
   flex-direction: column;
   padding-top: 42px;

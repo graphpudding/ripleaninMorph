@@ -63,6 +63,8 @@ function asyncLoad(scene){
       nameNum++;
       asyncLoad(scene);
     }else{
+      // preLoader
+      document.getElementById('heroPreloader').remove();
       afterLoad(scene);
     }
   })
